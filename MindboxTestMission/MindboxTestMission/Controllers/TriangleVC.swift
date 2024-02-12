@@ -14,7 +14,7 @@ class TriangleVC: UIViewController {
     private let calculateButton: UIButton = {
         let button = UIButton()
         button.setTitle("Вычислить", for: .normal)
-        button.setTitleColor(.systemIndigo, for: .normal)
+        button.setTitleColor(.systemBlue, for: .normal)
         button.addTarget(self, action: #selector(calculateButtonTapped), for: .touchUpInside)
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
